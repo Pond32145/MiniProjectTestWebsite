@@ -1,0 +1,47 @@
+
+.container{
+    width: 60%;
+    margin: auto;
+
+}
+.sub{
+    margin: auto;
+    border: 1px solid rgba(109, 88, 186, 0.415);
+    width: 718px;
+}
+td{
+    font-size: 14.3px;
+    margin: auto;
+}
+th{
+    background-color: rgba(180, 187, 246, 0.462);
+}
+.hr1{
+    width: 40%;
+}
+h2{
+    color: rgb(255, 178, 34);
+}
+h4{
+    padding-left: 35px;
+}
+.t2{
+    font-size: 12px;
+    text-align: center;
+    margin: auto;
+    border: 1px rgba(4, 12, 42, 0.496) solid;
+}
+.t2 td{
+    border: 1px rgba(16, 33, 94, 0.496) solid;
+    
+}
+.t2 th{
+    height: 50px;
+    width: 60px;
+}
+.cal{
+    font-size: 11px;
+    font-weight: bolder;
+    color: blueviolet;
+    background-color: rgba(141, 141, 223, 0.368);
+}
