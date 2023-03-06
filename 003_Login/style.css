@@ -1,0 +1,114 @@
+
+
+body{
+    background-color: rgba(112, 181, 216, 0.985);
+    place-items: center;
+    display: grid;
+}
+.back-con{
+    width: 350px;
+    height: 580px;
+    background-color: rgba(95, 109, 216, 0.644);
+    border-radius: 10px;
+    margin-top: 50px;
+    position: absolute;
+    z-index: 0;
+    rotate: 5deg;
+    opacity: .4;
+}
+.container{
+    width: 350px;
+    height: 580px;
+    background-color: rgb(95, 109, 216);
+    border-radius: 10px;
+    box-shadow: 8px 10px 4px 0px rgb(11, 14, 21);
+    margin-top: 50px;
+    z-index: 1;
+}
+.login{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.head{
+    color: aliceblue;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.email , .pass{
+    width: 100%;
+    margin: 15px;
+}
+#email ,#pass{
+    width: 80%;
+    height: 30px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(90, 24, 24);
+    color: rgb(255, 255, 255);
+}
+.remembers{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.remember{
+    margin-left: 35px;
+}
+.help{
+    margin-right: 35px;
+}
+.buttons{
+    width: 100%;
+}
+.buttons button{
+    width: 80%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: rgb(90, 24, 24);
+    font-size: 25px;
+    margin-top: 30px;
+    transition: all .5s;
+}
+.buttons button:hover{
+    cursor: pointer;
+    background-color: blanchedalmond;
+    color: rgb(11, 14, 21);
+}
+.socials{
+    margin-top: 20px;
+}
+.or{
+    font-weight: 700;
+    color: aliceblue;
+}
+.social{
+    display: flex;
+    padding: 10px;
+}
+.social a{
+    padding: 0px 10px;
+    font-size: 28px;
+    color: #243b55;
+    transition: all .5s;
+}
+.social a:hover{
+    color: aqua;
+}
+.sign{
+    margin-top: 20px;
+    color: #141e30;
+}
+.sign-link{
+    color: #243b55;
+    cursor: pointer;
+}

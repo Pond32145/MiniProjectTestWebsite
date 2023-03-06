@@ -1,0 +1,50 @@
+*{
+    margin: 3%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #5d2626;
+}
+body , .container , .overlay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background-color: #3fc612;
+    width: 350px;
+    height: 450px;
+    border-radius: 16px;
+    position: relative;
+    overflow: hidden;
+}
+.container .active{
+    background-color: #000;
+}
+.container::before{
+    content: "";
+    position: absolute;
+    height: 650px;
+    width: 650px;
+    background-image: conic-gradient(transparent, transparent, transparent, #fff);
+}
+.container.active:before{
+    animation: rotate 4s linear infinite;
+}
+@keyframes rotate {
+    form {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+.container .overlay {
+    position: absolute;
+    height: 440px;
+    width: 340px;
+    color: #fff;
+    border-radius: 12px;
+    background-color: #131221;
+  }
